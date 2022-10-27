@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olumide Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1fee844e21.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/Group 4.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About me</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact me</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer and Frontend Developer &#128218;</p>
+                <h1>Hi, I'm <span>Olumide</span> from Nigeria</h1>
+                <button type="submit" class="btn button"><a href="mailto:hellolumide@gmail.com">Contact me</a></button>
+                <a href="images/Adeoluwakishi CV .pdf" download="" class="btn btn21">Download CV</a>
+            </div>
+        </div>
+    </div>
+    <!------------about------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/oo.png" alt="">
+                    <div class="lo">
+                        <img src="images/WhatsApp Image 2022-09-02 at 2.15.50 PM.jpeg" alt="">
+                    </div>
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am an Information Technology (IT) Enthusiast. Looking forward to getting an opportunity that
+                        allows me to showcase my skills and contribute to the companies’ Growth. Also, to work as an
+                        integral part of a team of highly productive technical professionals who thrive on supporting
+                        customer’s mission and growth objectives across various areas of IT.</p><br>
+                    <p><a href="more about me.html" class="know-more">Know More &rarr;</a></p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Frontend Developing</span><br>Web Application Development</li>
+                            <li><span>Content Writting</span><br>Writting engaging contents</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2021 - Current</span><br>
+                                <h4>Upwork Inc, San Fransico, CA</h4>PRODUCT DESIGNER AND CONTENT WRITER
+                            </li>
+                            <li><span>04/2022 - 05/2022</span><br>
+                                <h4>Tunks Shoes, Lagos, Nigeria</h4>JUNIOR UI/UX RESEARCHER AND DESIGNER
+                            </li>
+                            <li><span>02/2021 – 06/2021</span><br>
+                                <h4>Kaykem Ventures, Lagos, Nigeria </h4>JUNIOR MARKETING ANALYST
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021</span><br>UI/UX Training at Side Hustle</li>
+                            <li><span>2019</span><br>B.Sc at Obafemi Awolowo University</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------------services------------------>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Designing Websites, Web Application user infercases, using different color templates and color
+                        scheme.
+                    </p>
+                    <a href="#">Learn more &rarr;</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Designing User interface for various devices and creating prototype and wireframing illustration.
+                        User Research likewise.
+                    </p>
+                    <a href="#">Learn more &rarr;</a>
+                </div>
+                <div>
+                    <i class="fa-regular fa-pen-to-square"></i>
+                    <h2>Writting</h2>
+                    <p>Writing engaging contents on various article and blog post in different niche, Lifestyle,
+                        Technology et.c.
+                    </p>
+                    <a href="#">Learn more &rarr;</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App design</h2>
+                    <p>Designing Application interfaces, and the user Experience. creating and effective typography,
+                        color scheme and grid layout.
+                    </p>
+                    <a href="#">Learn more &rarr;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-----------------Portfolio-------------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/1.png">
+                    <div class="layer">
+                        <h3>Mock up app</h3>
+                        <p>This app lets you add your design to different free mockups, Not available yet</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/2.png">
+                    <div class="layer">
+                        <h3>Sport web app</h3>
+                        <p>This app lets you stream your favorite matches and at the same time allows you make money by
+                            making the right predictions, Not available yet</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/3.png">
+                    <div class="layer">
+                        <h3>Calender app</h3>
+                        <p>Never miss a loved one Birthday.This app lets you Organize your activities, reaminds you of
+                            important event also helps you send Birthday messages and new month messages to your loved
+                            ones, Not available yet</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more &rarr;</a>
+        </div>
+    </div>
+    <!-------------------Contact-------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> Hellolumide@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 09065832178</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                    <a href="images/Adeoluwakishi CV .pdf" download="" class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form action="">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright © Lumidesigns&trade;. Lagos, Nigeria. Created with the help of Kevin</p>
+        </div>
+        <div class="footer-23">
+            <footer>
+                TERMS AND CONDITION | PRIVACY POLICY | ACCESSIBILITY
+            </footer>
+        </div>
+    </div>
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+
+    </script>
+
+
+</body>
+
+</html>
